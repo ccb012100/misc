@@ -1,0 +1,47 @@
+! 2022-11-29 https://www.wired.com
+www.wired.com##.cne-video-embed
+
+! 2022-12-19 https://www.theguardian.com
+www.theguardian.com##.gu-island
+
+! 2022-12-23 https://www.independent.co.uk
+www.independent.co.uk##.apester-unit
+www.independent.co.uk##.video-hero-wrapper
+
+! 2023-01-21 https://www.nbcnews.com
+www.nbcnews.com##.article-hero__video
+
+! 2023-02-01 https://www.discogs.com
+www.discogs.com##div.side_3-xID
+
+! 2023-02-04 https://kotaku.com
+kotaku.com##.video-html5-wrapper
+
+! 2023-02-07 https://kotaku.com
+kotaku.com##.video-html5-playlist.hxLRyg.sc-1wkneyl-0
+
+! 2023-02-08 https://stackoverflow.com
+stackoverflow.com##.js-consent-banner
+
+! 2023-02-11 https://thehill.com
+thehill.com##.article__featured-media
+
+! 2023-02-21 https://www.allmusic.com
+www.allmusic.com##.registration-prompt-box
+
+! 2023-02-23 https://www.premierguitar.com
+www.premierguitar.com##.jw-player-holder
+
+! 2023-02-25 https://www.nme.com
+www.nme.com##.jw-reset.jw-media
+www.nme.com##.jw-reset.jw-wrapper
+www.nme.com##.jw-reset.jw-aspect
+www.nme.com##.jwplayer
+
+! 2023-03-02 https://retrocomputing.stackexchange.com
+stackexchange.com##.js-dismissable-hero
+
+! 2023-03-10 https://www.allmusic.com
+www.allmusic.com##.moods
+www.allmusic.com##.themes
+
