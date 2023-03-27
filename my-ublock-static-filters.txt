@@ -45,3 +45,6 @@ stackexchange.com##.js-dismissable-hero
 www.allmusic.com##.moods
 www.allmusic.com##.themes
 
+! 2023-03-20 https://www.polygon.com
+www.polygon.com##.c-toaster-stuck.c-toaster-active.c-toaster
+
