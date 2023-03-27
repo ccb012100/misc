@@ -59,7 +59,7 @@
             "theme": {
                 "mode": 0,
                 "brightness": 100,
-                "contrast": 100,
+                "contrast": 150,
                 "grayscale": 0,
                 "sepia": 0,
                 "useFont": true,
