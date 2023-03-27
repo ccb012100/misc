@@ -8,13 +8,13 @@
         "grayscale": 0,
         "sepia": 0,
         "useFont": true,
-        "fontFamily": "IBM Plex Sans",
+        "fontFamily": "IBM Plex Serif",
         "textStroke": 0,
         "engine": "dynamicTheme",
         "stylesheet": "",
         "darkSchemeBackgroundColor": "#181a1b",
         "darkSchemeTextColor": "#e8e6e3",
-        "lightSchemeBackgroundColor": "#d5d6db",
+        "lightSchemeBackgroundColor": "#FBF0D9",
         "lightSchemeTextColor": "#000000",
         "scrollbarColor": "auto",
         "selectionColor": "auto",
@@ -26,9 +26,6 @@
     "presets": [],
     "customThemes": [
         {
-            "url": [
-                "news.ycombinator.com"
-            ],
             "theme": {
                 "mode": 0,
                 "brightness": 100,
@@ -38,8 +35,65 @@
                 "useFont": true,
                 "fontFamily": "IBM Plex Sans",
                 "textStroke": 0,
-                "engine": "staticTheme",
-                "stylesheet": "* {\n        color: #FFFFF7 !important;\n        background-color: #002b36 !important;\n      }\n      body > center > table > tbody > tr:first-child * {\n        background-color: #073642 !important;\n      }\n      body > center > table > tbody > tr:first-child * a:hover {\n        background: #002b36 !important;\n      }\n      code, pre, input, textarea {\n        background: #073642 !important;\n      }\n      a {\n        color: #2aa198 !important;\n      }\n      .subtext a {\n        color: #93A1A1 !important;\n      }\n      a:visited, a:visited span {\n        color: #b58900 !important;\n      }\n      a:hover, a:hover span {\n        background: #073642 !important;\n      }",
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#181a1b",
+                "lightSchemeTextColor": "#e8e6e3",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "news.ycombinator.com"
+            ]
+        },
+        {
+            "url": [
+                "stackoverflow.com"
+            ],
+            "theme": {
+                "mode": 0,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": true,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#000000",
+                "darkSchemeTextColor": "#FFA500",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#000000",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            }
+        },
+        {
+            "url": [
+                "meet.google.com"
+            ],
+            "theme": {
+                "mode": 0,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
                 "darkSchemeBackgroundColor": "#181a1b",
                 "darkSchemeTextColor": "#e8e6e3",
                 "lightSchemeBackgroundColor": "#d5d6db",
@@ -53,7 +107,9 @@
             }
         }
     ],
-    "siteList": [],
+    "siteList": [
+        "sw.kovidgoyal.net"
+    ],
     "siteListEnabled": [],
     "applyToListedOnly": false,
     "changeBrowserTheme": false,
@@ -61,9 +117,9 @@
     "syncSitesFixes": false,
     "automation": {
         "behavior": "OnOff",
+        "enable": false,
         "enabled": false,
-        "mode": "system",
-        "enable": false
+        "mode": "system"
     },
     "time": {
         "activation": "18:00",
@@ -80,5 +136,31 @@
     "detectDarkTheme": true,
     "displayedNews": [
         "mobile"
+    ],
+    "readNews": [
+        "news-2023",
+        "filter-mode",
+        "v5-survey",
+        "mobile",
+        "detect-dark-theme",
+        "no-war",
+        "chrome-favorites-2021",
+        "thanks-2021",
+        "5m-users",
+        "v4-9-16",
+        "v4-9",
+        "attention",
+        "dr-5-announcement",
+        "2m-users",
+        "automation",
+        "product-hunt-golden-kitty-2018",
+        "time-settings",
+        "safari",
+        "500k-users",
+        "stylish",
+        "product-hunt",
+        "custom-site-settings",
+        "thanks-for-contribution",
+        "dynamic-theme"
     ]
 }
