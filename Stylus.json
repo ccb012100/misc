@@ -8,7 +8,7 @@
       "disableAll": false,
       "exposeIframes": false,
       "exposeStyleName": false,
-      "newStyleAsUsercss": false,
+      "newStyleAsUsercss": true,
       "styleViaXhr": false,
       "patchCsp": false,
       "config.autosave": true,
@@ -85,9 +85,9 @@
       "iconset": -1,
       "badgeDisabled": "#8B0000",
       "badgeNormal": "#006666",
-      "headerWidth.edit": 280,
-      "headerWidth.install": 280,
-      "headerWidth.manage": 280,
+      "headerWidth.edit": 200,
+      "headerWidth.install": 200,
+      "headerWidth.manage": 200,
       "popupWidth": 246,
       "updateInterval": 24
     },
@@ -104,15 +104,51 @@
     "name": "font change",
     "sections": [
       {
-        "code": "* {\n    font-family: 'IBM Plex Serif' !important;\n}"
+        "code": "p {\n    font-family: 'IBM Plex Serif';\n}\npre {\n    font-family: 'IBM Plex Mono';\n}"
       }
     ],
-    "updateDate": 1680619366158,
+    "updateDate": 1681330142218,
     "_id": "7f3c5fd7-0105-40de-8dbc-edf4d902270a",
-    "_rev": 1680795871634,
+    "_rev": 1681330142218,
     "id": 1,
     "exclusions": [
-      "https://meet.google.com/*"
+      "https://meet.google.com/*",
+      "https://calendar.google.com/*",
+      "https://learn.microsoft.com/*"
     ]
+  },
+  {
+    "enabled": true,
+    "installDate": 1680808890324,
+    "name": "learn.microsoft.com",
+    "sections": [
+      {
+        "code": "p {\n    font-family: \"IBM Plex Serif\";\n}",
+        "domains": [
+          "learn.microsoft.com"
+        ]
+      }
+    ],
+    "updateDate": 1680808933975,
+    "_id": "428764ab-0cd0-4179-92fc-dfc7fe27669f",
+    "_rev": 1680897794051,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1680898140064,
+    "name": "controltower.6river.tech",
+    "sections": [
+      {
+        "code": "* {\n    font-family: 'IBM Plex Serif';\n}",
+        "domains": [
+          "controltower.6river.tech"
+        ]
+      }
+    ],
+    "updateDate": 1680898140064,
+    "_id": "0e28ef71-f936-4df8-99f9-f28574d68388",
+    "_rev": 1680898140064,
+    "id": 5
   }
 ]
