@@ -7,7 +7,7 @@
         "contrast": 100,
         "grayscale": 0,
         "sepia": 0,
-        "useFont": true,
+        "useFont": false,
         "fontFamily": "IBM Plex Serif",
         "textStroke": 0,
         "engine": "dynamicTheme",
@@ -27,7 +27,7 @@
     "customThemes": [
         {
             "theme": {
-                "mode": 0,
+                "mode": 1,
                 "brightness": 100,
                 "contrast": 100,
                 "grayscale": 0,
@@ -37,8 +37,8 @@
                 "textStroke": 0,
                 "engine": "dynamicTheme",
                 "stylesheet": "",
-                "darkSchemeBackgroundColor": "#181a1b",
-                "darkSchemeTextColor": "#e8e6e3",
+                "darkSchemeBackgroundColor": "#774b0a",
+                "darkSchemeTextColor": "#ffffff",
                 "lightSchemeBackgroundColor": "#181a1b",
                 "lightSchemeTextColor": "#e8e6e3",
                 "scrollbarColor": "auto",
@@ -53,13 +53,10 @@
             ]
         },
         {
-            "url": [
-                "stackoverflow.com"
-            ],
             "theme": {
                 "mode": 0,
                 "brightness": 100,
-                "contrast": 150,
+                "contrast": 100,
                 "grayscale": 0,
                 "sepia": 0,
                 "useFont": true,
@@ -77,12 +74,12 @@
                 "lightColorScheme": "Default",
                 "darkColorScheme": "Default",
                 "immediateModify": false
-            }
+            },
+            "url": [
+                "stackoverflow.com"
+            ]
         },
         {
-            "url": [
-                "meet.google.com"
-            ],
             "theme": {
                 "mode": 0,
                 "brightness": 100,
@@ -104,19 +101,19 @@
                 "lightColorScheme": "Default",
                 "darkColorScheme": "Default",
                 "immediateModify": false
-            }
+            },
+            "url": [
+                "meet.google.com"
+            ]
         },
         {
-            "url": [
-                "github.com"
-            ],
             "theme": {
                 "mode": 0,
                 "brightness": 100,
                 "contrast": 100,
                 "grayscale": 0,
                 "sepia": 0,
-                "useFont": false,
+                "useFont": true,
                 "fontFamily": "IBM Plex Serif",
                 "textStroke": 0,
                 "engine": "dynamicTheme",
@@ -131,13 +128,80 @@
                 "lightColorScheme": "Default",
                 "darkColorScheme": "Default",
                 "immediateModify": false
-            }
+            },
+            "url": [
+                "news.google.com"
+            ]
+        },
+        {
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": true,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#000000",
+                "darkSchemeTextColor": "#ffffff",
+                "lightSchemeBackgroundColor": "#181a1b",
+                "lightSchemeTextColor": "#e8e6e3",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "www.allaboutjazz.com"
+            ]
+        },
+        {
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": true,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#FBF0D9",
+                "lightSchemeTextColor": "#000000",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "blog.persistent.info"
+            ]
         }
     ],
     "siteList": [
-        "sw.kovidgoyal.net"
+        "sw.kovidgoyal.net",
+        "github.com",
+        "twitter.com",
+        "www.apple.com",
+        "support.apple.com",
+        "www.amazon.com",
+        "mirrorful.com",
+        "www.att.com",
+        "secretlab.co"
     ],
-    "siteListEnabled": [],
+    "siteListEnabled": [
+        "blog.persistent.info"
+    ],
     "applyToListedOnly": false,
     "changeBrowserTheme": false,
     "syncSettings": true,
