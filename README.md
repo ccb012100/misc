@@ -33,3 +33,9 @@ Home for miscellaneous files
 ## uBlock Origin
 
 <https://ublockorigin.com/>
+
+## GitHub bookmarklet
+
+Web Browser bookmarklet to set all files on a **GitHub** Pull Request `/files` page as *viewed*.
+
+The script will only access the DOM if the URL matches the pattern `/[ORGANIZATION]/[REPO]/pull/[NUMBER]/files`.
