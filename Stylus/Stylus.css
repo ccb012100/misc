@@ -1,21 +1,47 @@
 @-moz-document domain("news.ycombinator.com") {
-  html {
-    background-color: #f0f2df;
-  }
+html {
+    background-color: black;
+}
 
-  .comment {
-    font-family: 'IBM Plex Serif';
-  }
+code {
+    font-family: "IBM Plex Mono";
+    color: green;
+}
 
-  code {
-    font-family: 'IBM Plex Mono';
-  }
+table {
+    background-color: #1d0826;
+    color: #FFA500;
+}
 
-  table {
-    background-color: #fff2df;
-  }
+textarea {
+    color: #f24b99;
+    background-color: black;
+}
 
-  .comhead a:link {
-    color: #622569;
-  }
+input {
+    background-color: purple;
+    color: white;
+}
+
+a:link {
+    color: purple;
+}
+
+.hnmore a:link,
+a:visited {
+    color: #f24b99;
+}
+
+.comhead a:link {
+    color: #f24b99;
+}
+
+.commtext {
+    font-family: "IBM Plex Serif";
+    color: #f29d35;
+}
+
+.score {
+    color: #f29d35;
+}
 }
