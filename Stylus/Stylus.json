@@ -116,13 +116,13 @@
     "name": "news.ycombinator.com",
     "sections": [
       {
-        "code": "html {\n    background-color: #f0f2df;\n}\n\n.comment {\n    font-family: \"IBM Plex Serif\";\n}\n\ncode {\n    font-family: \"IBM Plex Mono\"\n}\n\ntable {\n    background-color: #fff2df;\n}\n\n.comhead a:link {\n    color: #622569;\n}",
+        "code": "html {\n    background-color: black;\n}\n\ncode {\n    font-family: \"IBM Plex Mono\";\n    color: green;\n}\n\ntable {\n    background-color: #1d0826;\n    color: #FFA500;\n}\n\ntextarea {\n    color: #f24b99;\n    background-color: black;\n}\n\ninput {\n    background-color: purple;\n    color: white;\n}\n\na:link {\n    color: purple;\n}\n\n.hnmore a:link,\na:visited {\n    color: #f24b99;\n}\n\n.comhead a:link {\n    color: #f24b99;\n}\n\n.commtext {\n    font-family: \"IBM Plex Serif\";\n    color: #f29d35;\n}\n\n.score {\n    color: #f29d35;\n}",
         "domains": ["news.ycombinator.com"]
       }
     ],
-    "updateDate": 1681918094376,
+    "updateDate": 1681919552714,
     "_id": "9be03de3-c086-476f-9b56-93373fddf73c",
-    "_rev": 1681918094376,
+    "_rev": 1681919552714,
     "id": 2
   }
 ]
