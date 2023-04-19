@@ -1,6 +1,21 @@
-p {
+@-moz-document domain("news.ycombinator.com") {
+  html {
+    background-color: #f0f2df;
+  }
+
+  .comment {
     font-family: 'IBM Plex Serif';
-}
-pre {
+  }
+
+  code {
     font-family: 'IBM Plex Mono';
+  }
+
+  table {
+    background-color: #fff2df;
+  }
+
+  .comhead a:link {
+    color: #622569;
+  }
 }

@@ -8,7 +8,7 @@
       "disableAll": false,
       "exposeIframes": false,
       "exposeStyleName": false,
-      "newStyleAsUsercss": true,
+      "newStyleAsUsercss": false,
       "styleViaXhr": false,
       "patchCsp": false,
       "config.autosave": true,
@@ -34,7 +34,7 @@
       "manage.minColumnWidth": 750,
       "manage.newUI": true,
       "manage.newUI.favicons": true,
-      "manage.newUI.faviconsGray": false,
+      "manage.newUI.faviconsGray": true,
       "manage.newUI.targets": 3,
       "manage.newUI.sort": "title,asc",
       "editor.options": {},
@@ -46,8 +46,8 @@
       "editor.smartIndent": true,
       "editor.indentWithTabs": false,
       "editor.tabSize": 4,
-      "editor.keyMap": "emacs",
-      "editor.theme": "dracula",
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
       "editor.beautify": {
         "selector_separator_newline": true,
         "newline_before_open_brace": false,
@@ -85,70 +85,44 @@
       "iconset": -1,
       "badgeDisabled": "#8B0000",
       "badgeNormal": "#006666",
-      "headerWidth.edit": 200,
-      "headerWidth.install": 200,
-      "headerWidth.manage": 200,
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
       "popupWidth": 246,
       "updateInterval": 24
     },
     "order": {
       "main": [],
-      "prio": [
-        "7f3c5fd7-0105-40de-8dbc-edf4d902270a"
-      ]
+      "prio": []
     }
   },
   {
-    "enabled": true,
-    "installDate": 1680619236745,
+    "enabled": false,
+    "installDate": 1680619344707,
     "name": "font change",
     "sections": [
       {
-        "code": "p {\n    font-family: 'IBM Plex Serif';\n}\npre {\n    font-family: 'IBM Plex Mono';\n}"
+        "code": "p {\n    font-family: 'IBM Plex Serif, Linux Libertine, DejaVu Serif, serif';\n}\npre {\n    font-family: 'IBM Plex Mono';\n}"
       }
     ],
-    "updateDate": 1681330142218,
-    "_id": "7f3c5fd7-0105-40de-8dbc-edf4d902270a",
-    "_rev": 1681330142218,
-    "id": 1,
-    "exclusions": [
-      "https://meet.google.com/*",
-      "https://calendar.google.com/*",
-      "https://learn.microsoft.com/*"
-    ]
+    "updateDate": 1681330115825,
+    "_id": "88dadf06-8539-45b7-996a-dcfc16cace92",
+    "_rev": 1681845703786,
+    "id": 1
   },
   {
     "enabled": true,
-    "installDate": 1680808890324,
-    "name": "learn.microsoft.com",
+    "installDate": 1681917635262,
+    "name": "news.ycombinator.com",
     "sections": [
       {
-        "code": "p {\n    font-family: \"IBM Plex Serif\";\n}",
-        "domains": [
-          "learn.microsoft.com"
-        ]
+        "code": "html {\n    background-color: #f0f2df;\n}\n\n.comment {\n    font-family: \"IBM Plex Serif\";\n}\n\ncode {\n    font-family: \"IBM Plex Mono\"\n}\n\ntable {\n    background-color: #fff2df;\n}\n\n.comhead a:link {\n    color: #622569;\n}",
+        "domains": ["news.ycombinator.com"]
       }
     ],
-    "updateDate": 1680808933975,
-    "_id": "428764ab-0cd0-4179-92fc-dfc7fe27669f",
-    "_rev": 1680897794051,
-    "id": 4
-  },
-  {
-    "enabled": true,
-    "installDate": 1680898140064,
-    "name": "controltower.6river.tech",
-    "sections": [
-      {
-        "code": "* {\n    font-family: 'IBM Plex Serif';\n}",
-        "domains": [
-          "controltower.6river.tech"
-        ]
-      }
-    ],
-    "updateDate": 1680898140064,
-    "_id": "0e28ef71-f936-4df8-99f9-f28574d68388",
-    "_rev": 1680898140064,
-    "id": 5
+    "updateDate": 1681918094376,
+    "_id": "9be03de3-c086-476f-9b56-93373fddf73c",
+    "_rev": 1681918094376,
+    "id": 2
   }
 ]
