@@ -48,3 +48,32 @@ www.allmusic.com##.themes
 ! 2023-03-20 https://www.polygon.com
 www.polygon.com##.c-toaster-stuck.c-toaster-active.c-toaster
 
+! 2023-04-21 https://abcnews.go.com
+abcnews.go.com##.taboola
+
+! 2023-04-22 https://www.msnbc.com
+www.msnbc.com##.inline-video
+
+! 2023-04-22 https://www.wired.com
+www.wired.com##.podcast.card
+www.wired.com##.social-group
+www.wired.com##.ad__slot--post_nav
+
+! 2023-04-22 https://www.atlasobscura.com
+www.atlasobscura.com##.ad-site-top-full-width
+www.atlasobscura.com###article-body > div > .membership-creative
+
+! 2023-04-22 https://www.thedailybeast.com
+www.thedailybeast.com###piano_bottom_ribbon_wrapper
+www.thedailybeast.com##.ConnatixAd
+
+! 2023-04-23 https://arstechnica.com
+arstechnica.com##.inline-playlist
+
+! 2023-04-24 https://www.politico.com
+www.politico.com##.media-item__video
+www.politico.com##.sign-up-21
+
+! 2023-04-25 https://www.ign.com
+www.ign.com##.watch-read-video
+
