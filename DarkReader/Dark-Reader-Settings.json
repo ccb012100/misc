@@ -14,7 +14,7 @@
         "stylesheet": "",
         "darkSchemeBackgroundColor": "#181a1b",
         "darkSchemeTextColor": "#e8e6e3",
-        "lightSchemeBackgroundColor": "#FBF0D9",
+        "lightSchemeBackgroundColor": "#fbf8ef",
         "lightSchemeTextColor": "#000000",
         "scrollbarColor": "auto",
         "selectionColor": "auto",
@@ -186,6 +186,87 @@
             "url": [
                 "blog.persistent.info"
             ]
+        },
+        {
+            "theme": {
+                "mode": 0,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#FBF0D9",
+                "lightSchemeTextColor": "#000000",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "www.monoprice.com"
+            ]
+        },
+        {
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#FBF0D9",
+                "lightSchemeTextColor": "#000000",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "www.discogs.com"
+            ]
+        },
+        {
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#FBF0D9",
+                "lightSchemeTextColor": "#000000",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "jonathanhaidt.substack.com"
+            ]
         }
     ],
     "siteList": [
@@ -197,7 +278,27 @@
         "www.amazon.com",
         "mirrorful.com",
         "www.att.com",
-        "secretlab.co"
+        "secretlab.co",
+        "account.live.com",
+        "connect.secure.wellsfargo.com",
+        "htmlcolorcodes.com",
+        "stackoverflow.blog",
+        "substack.com",
+        "deck.of.cards",
+        "dgross.ca",
+        "news.ycombinator.com",
+        "www.w3schools.com",
+        "www.color-hex.com",
+        "www.nbcnews.com",
+        "regexr.com",
+        "www.msnbc.com",
+        "www.politico.com",
+        "www.dfwairport.com",
+        "onlineparking.dfwairport.com",
+        "calendar.google.com",
+        "news.google.com",
+        "www.analogue.co",
+        "developer.mozilla.org"
     ],
     "siteListEnabled": [
         "blog.persistent.info"
@@ -221,7 +322,7 @@
         "longitude": null
     },
     "previewNewDesign": true,
-    "enableForPDF": true,
+    "enableForPDF": false,
     "enableForProtectedPages": false,
     "enableContextMenus": false,
     "detectDarkTheme": true,
