@@ -1,47 +1,98 @@
+@-moz-document domain("atlassian.net") {
+  /* Insert code here... */
+  div {
+    background-color: #fbf8ef;
+    color: black;
+  }
+
+  .ak-renderer-document p {
+    font-size: 1.1em;
+    font-family: 'IBM Plex Serif';
+  }
+
+  code.code {
+    font-family: 'IBM Plex Mono' !important;
+  }
+}
+@-moz-document domain("calendar.google.com") {
+  body,
+  div {
+    background-color: #fbf8ef;
+  }
+}
 @-moz-document domain("news.ycombinator.com") {
-html {
+  html {
     background-color: black;
-}
-
-code {
-    font-family: "IBM Plex Mono";
+  }
+  code {
+    font-family: 'IBM Plex Mono';
     color: green;
-}
-
-table {
+  }
+  table {
     background-color: #1d0826;
-    color: #FFA500;
-}
-
-textarea {
+    color: #ffa500;
+  }
+  textarea {
     color: #f24b99;
     background-color: black;
-}
-
-input {
+  }
+  input {
     background-color: purple;
     color: white;
-}
-
-a:link {
+  }
+  .hnmore a:link,
+  a:visited {
+    color: #f24b99;
+  }
+  .pagetop a,
+  .pagetop a:visited,
+  .title a,
+  .comhead a:link {
+    color: #f24b99;
+    font-size: 1.3em;
+  }
+  .commtext {
+    font-family: 'IBM Plex Serif';
+    color: #f29d35;
+    font-size: 1.3em;
+  }
+  .commtext a:link {
     color: purple;
-}
-
-.hnmore a:link,
-a:visited {
-    color: #f24b99;
-}
-
-.comhead a:link {
-    color: #f24b99;
-}
-
-.commtext {
-    font-family: "IBM Plex Serif";
+  }
+  .score {
     color: #f29d35;
+  }
 }
-
-.score {
-    color: #f29d35;
+@-moz-document domain("politico.com") {
+  html,
+  body,
+  body div {
+    background-color: #fbf8ef;
+  }
+  .page-content--story .page-content__row--story:first-child,
+  .page-content__row--story {
+    padding: 0;
+  }
+  section {
+    padding: 0;
+    margin: 0;
+  }
+  .story-text > ol,
+  .story-text > ul,
+  .story-text > p {
+    font-family: 'IBM Plex Serif';
+  }
 }
+@-moz-document domain("wikipedia.org") {
+  #mw-content-text {
+    font-family: 'IBM Plex Serif';
+  }
+  nav {
+    font-family: 'IBM Plex Sans';
+  }
+}
+@-moz-document domain("www.vox.com") {
+  p {
+    font-family: 'IBM Plex Serif';
+  }
 }
