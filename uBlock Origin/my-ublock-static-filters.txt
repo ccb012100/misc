@@ -77,3 +77,7 @@ www.politico.com##.sign-up-21
 ! 2023-04-25 https://www.ign.com
 www.ign.com##.watch-read-video
 
+! 2023-04-25 https://www.independent.co.uk
+www.independent.co.uk##.newsletter-component
+www.independent.co.uk##[id^=ad-]
+
