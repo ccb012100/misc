@@ -267,6 +267,33 @@
             "url": [
                 "jonathanhaidt.substack.com"
             ]
+        },
+        {
+            "theme": {
+                "mode": 0,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "IBM Plex Serif",
+                "textStroke": 0,
+                "engine": "dynamicTheme",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#fbf8ef",
+                "lightSchemeTextColor": "#000000",
+                "scrollbarColor": "auto",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "url": [
+                "calendar.google.com"
+            ]
         }
     ],
     "siteList": [
@@ -275,7 +302,6 @@
         "twitter.com",
         "www.apple.com",
         "support.apple.com",
-        "www.amazon.com",
         "mirrorful.com",
         "www.att.com",
         "secretlab.co",
@@ -295,10 +321,10 @@
         "www.politico.com",
         "www.dfwairport.com",
         "onlineparking.dfwairport.com",
-        "calendar.google.com",
         "news.google.com",
         "www.analogue.co",
-        "developer.mozilla.org"
+        "developer.mozilla.org",
+        "xeroshoes.com"
     ],
     "siteListEnabled": [
         "blog.persistent.info"
