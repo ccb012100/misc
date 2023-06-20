@@ -8,9 +8,10 @@
       "disableAll": false,
       "exposeIframes": false,
       "exposeStyleName": false,
-      "newStyleAsUsercss": true,
+      "newStyleAsUsercss": false,
       "styleViaXhr": false,
       "patchCsp": false,
+      "urlInstaller": true,
       "config.autosave": true,
       "schemeSwitcher.enabled": "system",
       "schemeSwitcher.nightStart": "18:00",
@@ -30,7 +31,7 @@
       "manage.onlyUsercss.invert": false,
       "manage.actions.expanded": true,
       "manage.backup.expanded": true,
-      "manage.filters.expanded": true,
+      "manage.filters.expanded": false,
       "manage.minColumnWidth": 750,
       "manage.newUI": true,
       "manage.newUI.favicons": true,
@@ -49,16 +50,16 @@
       "editor.keyMap": "pcDefault",
       "editor.theme": "default",
       "editor.beautify": {
-        "selector_separator_newline": true,
-        "newline_before_open_brace": false,
-        "newline_after_open_brace": true,
-        "newline_between_properties": true,
-        "newline_before_close_brace": true,
-        "newline_between_rules": false,
-        "preserve_newlines": true,
         "end_with_newline": false,
         "indent_conditional": true,
-        "indent_mozdoc": true
+        "indent_mozdoc": true,
+        "newline_after_open_brace": true,
+        "newline_before_close_brace": true,
+        "newline_before_open_brace": false,
+        "newline_between_properties": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "selector_separator_newline": true
       },
       "editor.beautify.hotkey": "",
       "editor.lintDelay": 300,
@@ -97,23 +98,6 @@
     }
   },
   {
-    "enabled": false,
-    "installDate": 1681917635262,
-    "name": "news.ycombinator.com",
-    "sections": [
-      {
-        "code": "html {\n    background-color: black;\n}\ncode {\n    font-family: \"IBM Plex Mono\";\n    color: green;\n}\ntable {\n    background-color: #1d0826;\n    color: #FFA500;\n}\ntextarea {\n    color: #f24b99;\n    background-color: black;\n}\ninput {\n    background-color: purple;\n    color: white;\n}\n.hnmore a:link,\na:visited {\n    color: #f24b99;\n}\n.pagetop a,\n.pagetop a:visited,\n.title a,\n.comhead a:link {\n    color: #f24b99;\n    font-size: 1.3em;\n}\n.commtext {\n    font-family: \"IBM Plex Serif\";\n    color: #f29d35;\n    font-size: 1.3em;\n}\n.commtext a:link {\n    color: purple\n}\n.score {\n    color: #f29d35;\n}",
-        "domains": [
-          "news.ycombinator.com"
-        ]
-      }
-    ],
-    "updateDate": 1682009303376,
-    "_id": "9be03de3-c086-476f-9b56-93373fddf73c",
-    "_rev": 1682443410476,
-    "id": 2
-  },
-  {
     "enabled": true,
     "installDate": 1682011208124,
     "sections": [
@@ -135,7 +119,7 @@
     "name": "4/20/2023, 12:18:01 PM",
     "updateDate": 1682443250742,
     "_id": "6893ee2a-77c7-42d0-9499-8b14797bcfc8",
-    "_rev": 1682443250743,
+    "_rev": 1684272175343,
     "id": 3
   },
   {
@@ -146,7 +130,7 @@
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name           wikipedia.org - 4/21/2023, 5:43:13 PM\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"wikipedia.org\") {\n    #mw-content-text {\n        font-family: 'IBM Plex Serif';\n    }\n    nav {\n        font-family: \"IBM Plex Sans\"\n    }\n}",
+    "sourceCode": "/* ==UserStyle==\n@name           wikipedia.org - 4/21/2023, 5:43:13 PM\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"wikipedia.org\") {\n    #mw-content-text {\n        font-size: medium;\n        font-family: 'IBM Plex Serif';\n    }\n    nav {\n        font-family: \"IBM Plex Sans\";\n        font-size: medium;\n    }\n}",
     "usercssData": {
       "name": "wikipedia.org - 4/21/2023, 5:43:13 PM",
       "namespace": "github.com/openstyles/stylus",
@@ -157,9 +141,9 @@
     "author": "Me",
     "description": "A new userstyle",
     "name": "wikipedia.org - 4/21/2023, 5:43:13 PM",
-    "updateDate": 1682117544829,
+    "updateDate": 1686923052402,
     "_id": "482b0068-9bf3-4dee-810d-f070460d534f",
-    "_rev": 1682117544829,
+    "_rev": 1686923052402,
     "id": 4
   },
   {
@@ -183,7 +167,7 @@
     "name": "www.vox.com - 4/23/2023, 11:07:26 AM",
     "updateDate": 1682266093457,
     "_id": "2c34e497-38d2-4dc2-9f6c-14bf47630651",
-    "_rev": 1682266093457,
+    "_rev": 1684272175371,
     "id": 5
   },
   {
@@ -207,32 +191,8 @@
     "name": "politico.com - 4/24/2023, 8:31:05 AM",
     "updateDate": 1682443451037,
     "_id": "94899847-8cf2-4fb6-8199-b825577ee0d0",
-    "_rev": 1682443451037,
+    "_rev": 1684272175371,
     "id": 6
-  },
-  {
-    "enabled": true,
-    "installDate": 1682350911608,
-    "sections": [
-      {
-        "code": ""
-      }
-    ],
-    "sourceCode": "/* ==UserStyle==\n@name           calendar.google.com - 4/24/2023, 10:41:05 AM\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"calendar.google.com\") {\n    body,\n    div {\n        background-color: #fbf8ef;\n    }\n}",
-    "usercssData": {
-      "name": "calendar.google.com - 4/24/2023, 10:41:05 AM",
-      "namespace": "github.com/openstyles/stylus",
-      "version": "1.0.0",
-      "description": "A new userstyle",
-      "author": "Me"
-    },
-    "author": "Me",
-    "description": "A new userstyle",
-    "name": "calendar.google.com - 4/24/2023, 10:41:05 AM",
-    "updateDate": 1682351136496,
-    "_id": "cab9ab13-244f-4a54-b2db-955ccd7d64ad",
-    "_rev": 1682351136496,
-    "id": 7
   },
   {
     "enabled": true,
@@ -255,7 +215,7 @@
     "name": "news.ycombinator.com - 4/25/2023, 12:23:32 PM",
     "updateDate": 1682443426768,
     "_id": "5887a334-4bcc-45e4-949c-f66773fb5fb5",
-    "_rev": 1682443426768,
+    "_rev": 1684272175372,
     "id": 8
   }
 ]
