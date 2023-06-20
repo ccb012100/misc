@@ -81,3 +81,16 @@ www.ign.com##.watch-read-video
 www.independent.co.uk##.newsletter-component
 www.independent.co.uk##[id^=ad-]
 
+! 2023-05-30 https://www.wired.com
+www.wired.com##.persistent-bottom
+
+! 2023-06-03 https://superuser.com
+superuser.com##.js-dismissable-hero
+
+! 2023-06-06 https://techcrunch.com
+techcrunch.com##.piano-inline-promo
+techcrunch.com##.piano-ribbon-container
+
+! 2023-06-12 https://askubuntu.com
+askubuntu.com##.js-dismissable-hero
+
