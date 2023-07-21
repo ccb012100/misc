@@ -2,7 +2,7 @@
 javascript: (() => {
   if (window.location.origin !== 'https://github.com') {
     alert('must be on github.com!');
-  } else if (window.location.pathname.match(/^\/[0-9A-Za-z+]+\/[A-Za-z-]+\/pull\/[0-9]+\/files$/)) {
+  } else if (window.location.pathname.match(/^\/[0-9A-Za-z-]+\/[A-Za-z-]+\/pull\/[0-9]+\/files$/)) {
     document.getElementsByName('viewed').forEach((ch) => {
       if (!ch.checked) {
         ch.click();
